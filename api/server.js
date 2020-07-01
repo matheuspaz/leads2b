@@ -14,10 +14,14 @@ dotenv.config()
  */
 const app = express()
 
-// Enable json and cors on express application
+/**
+ * Enable json and cors on express application
+ */
 app.use(json())
 
-// Enable cors
+/**
+ * Enable cors
+ */
 app.use(cors())
 app.options('*', cors())
 
@@ -35,5 +39,14 @@ _.forIn(requireDir('./src/routes'), (value) => {
   app.use('/', value.default)
 })
 
-// Listen application on specif port or default
+/**
+ * Handle 404 errors
+ */
+app.use(function(req, res, next) {
+  res.status(404).send('404: File or route not found. Get out!');
+});
+
+/**
+ * Listen application on specif port or default
+ */
 app.listen(process.env.APP_PORT || 3000)
