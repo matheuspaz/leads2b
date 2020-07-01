@@ -10,6 +10,20 @@ services:
      - ./api:/app
     working_dir: /app
     command: 'yarn development'
+    depends_on: 
+      - mongo
+
+  front:
+    container_name: 'front-vuejs-leads2b'
+    image: matheuspaz/front-end-spa:latest
+    ports: 
+      - 4000:8080
+    volumes: 
+     - ./front:/app
+    working_dir: /app
+    command: 'yarn serve'
+    depends_on: 
+      - backend
 
   mongo:
     image: mongo
