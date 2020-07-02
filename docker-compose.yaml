@@ -9,7 +9,7 @@ services:
     volumes: 
      - ./api:/app
     working_dir: /app
-    command: 'yarn development'
+    command: ash -c 'yarn install && yarn development'
     depends_on: 
       - mongo
 
@@ -21,7 +21,7 @@ services:
     volumes: 
      - ./front:/app
     working_dir: /app
-    command: 'yarn serve'
+    command: ash -c 'yarn install && yarn serve'
     depends_on: 
       - backend
 
