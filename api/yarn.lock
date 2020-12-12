@@ -2368,9 +2368,9 @@ inherits@2.0.3:
   integrity sha1-Yzwsg+PaQqUC9SRmAiSA9CCCYd4=
 
 ini@^1.3.5, ini@~1.3.0:
-  version "1.3.5"
-  resolved "https://registry.yarnpkg.com/ini/-/ini-1.3.5.tgz#eee25f56db1c9ec6085e0c22778083f596abf927"
-  integrity sha512-RZY5huIKCMRWDUqZlEi72f/lmXKMvuszcMBduliQ3nnWbx9X/ZBQO7DijMEYS9EhHBb2qacRUMtC7svLwe0lcw==
+  version "1.3.8"
+  resolved "https://registry.yarnpkg.com/ini/-/ini-1.3.8.tgz#a29da425b48806f34767a4efce397269af28432c"
+  integrity sha512-JV/yugV2uzW5iMRSiZAyDtQd+nxtUnjeLt0acNdw98kKLrvuRVyB80tsREOE7yvGVgalhZ6RNXCmEHkUKBKxew==
 
 inquirer@^7.0.0:
   version "7.1.0"
@@ -3019,11 +3019,6 @@ mongoose-paginate@^5.0.3:
   integrity sha1-165J7Vv2Tx9692IOqGW2cFjFU3E=
   dependencies:
     bluebird "3.0.5"
-
-mongoose-seeder-lib@^1.0.2:
-  version "1.0.2"
-  resolved "https://registry.yarnpkg.com/mongoose-seeder-lib/-/mongoose-seeder-lib-1.0.2.tgz#d4a0b7f32c7e3d2fe1c2e49344fcc2208c20cac1"
-  integrity sha512-kfcGiWPbXcE0ied7wRVYtdn65aoMGO4eI288+zEWan+d/4omFOgwN/Sqw3PHW+Yhn0vee5H5rfRaypGJeEQDRA==
 
 mongoose@^5.9.9:
   version "5.9.10"
