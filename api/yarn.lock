@@ -2961,9 +2961,9 @@ minimatch@^3.0.4:
     brace-expansion "^1.1.7"
 
 minimist@^1.2.0, minimist@^1.2.5:
-  version "1.2.5"
-  resolved "https://registry.yarnpkg.com/minimist/-/minimist-1.2.5.tgz#67d66014b66a6a8aaa0c083c5fd58df4e4e97602"
-  integrity sha512-FM9nNUYrRBAELZQT3xeZQ7fmMOBg6nWNmJKTcgsJeaLstP/UODVpGsr5OhXhhXg6f+qtJ8uiZ+PUxkDWcgIXLw==
+  version "1.2.6"
+  resolved "https://registry.yarnpkg.com/minimist/-/minimist-1.2.6.tgz#8637a5b759ea0d6e98702cfb3a9283323c93af44"
+  integrity sha512-Jsjnk4bw3YJqYzbdyBiNsPWHPfO++UGG749Cxs6peCu5Xg4nrena6OVxOYxrQTqww0Jmwt+Ref8rggumkTLz9Q==
 
 minipass@^2.6.0, minipass@^2.8.6, minipass@^2.9.0:
   version "2.9.0"
@@ -3019,11 +3019,6 @@ mongoose-paginate@^5.0.3:
   integrity sha1-165J7Vv2Tx9692IOqGW2cFjFU3E=
   dependencies:
     bluebird "3.0.5"
-
-mongoose-seeder-lib@^1.0.2:
-  version "1.0.2"
-  resolved "https://registry.yarnpkg.com/mongoose-seeder-lib/-/mongoose-seeder-lib-1.0.2.tgz#d4a0b7f32c7e3d2fe1c2e49344fcc2208c20cac1"
-  integrity sha512-kfcGiWPbXcE0ied7wRVYtdn65aoMGO4eI288+zEWan+d/4omFOgwN/Sqw3PHW+Yhn0vee5H5rfRaypGJeEQDRA==
 
 mongoose@^5.9.9:
   version "5.9.10"
